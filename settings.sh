@@ -34,7 +34,7 @@ sudo chown ubuntu:ubuntu .gnupg
 curl -L https://get.rvm.io | bash -s stable
 source ~/.rvm/scripts/rvm
 rvm requirements
-rvm install 1.9.1-dev
+rvm install 1.9.3-dev
 rvm rubygems current
 nohup gem install rails
 gem install mongo
