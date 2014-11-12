@@ -1,3 +1,5 @@
+#!/bin/sh
+
 echo "America/Mexico_City" | sudo tee /etc/timezone
 sudo dpkg-reconfigure --frontend noninteractive tzdata
 
